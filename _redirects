@@ -1,0 +1,5 @@
+# root site
+/                       https://blog.bdemers.io/
+
+# functions
+/.well-known/webfinger  /.netlify/functions/webfinger  200
