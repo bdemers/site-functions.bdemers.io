@@ -1,5 +1,5 @@
 # root site
 /                       https://blog.bdemers.io/
-
+/slides                 https://github.com/bdemers/slides
 # functions
 /.well-known/webfinger  /.netlify/functions/webfinger  200
