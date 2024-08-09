@@ -35,7 +35,12 @@ const handler: Handler = async (event, context) => {
     };  
   }
 
-    return Response.redirect("https://fed.brid.gy/.well-known/webfinger");
+  return {
+      statusCode: 302,
+      multiValueHeaders: {
+          "Location": ["https://fed.brid.gy/.well-known/webfinger"]
+      }
+  }
 };
 
 export { handler };
