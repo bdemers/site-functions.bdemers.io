@@ -34,10 +34,8 @@ const handler: Handler = async (event, context) => {
       body: bdemersWebFingerBody
     };  
   }
-  
-  return {
-    statusCode: 404
-  }
+
+    return Response.redirect("https://fed.brid.gy/.well-known/webfinger");
 };
 
 export { handler };
