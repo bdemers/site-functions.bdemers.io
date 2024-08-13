@@ -1,5 +1,5 @@
 # root site
-/                       https://blog.bdemers.io/
+/                       https://blog.bdemers.io/  200
 /slides                 https://github.com/bdemers/slides
 /.well-known/host-meta  https://fed.brid.gy/.well-known/host-meta:splat
 # functions
